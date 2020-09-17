@@ -4,4 +4,6 @@
     <string name="date">Date</string>
     <string name="topic">Topic</string>
     <string name="update">Update</string>
+    <string name="chessclub_bingen">Schachklub Bingen</string>
+    <string name="reload">Reload</string>
 </resources>
