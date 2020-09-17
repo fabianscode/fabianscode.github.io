@@ -21,8 +21,19 @@
 
   <!-- Custom styles for this template test -->
   <link href="css/resume.min.css" rel="stylesheet">
+  <!-- Slideshow -->
+  <link href="css/slideshow.min.css" rel="stylesheet"> 
 
 </head>
+
+
+
+
+
+
+
+
+
 
 <body id="page-top">
 
@@ -50,6 +61,9 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#skills">Vereinsinfo</a>
         </li>
+		  <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#galery">Galerie</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#interests">Links</a>
         </li>
@@ -59,6 +73,10 @@
       </ul>
     </div>
   </nav>
+
+
+
+
 
   <div class="container-fluid p-0">
 
@@ -74,14 +92,25 @@
 		<div class="subheading mb-5">
 		<!--<a href="mailto:frank.laubach@schachklub-bingen.de">Email an den Schachklub</a> -->
         </div>
+		
+		
 		<h3 class="mb-0">Spielabende</h3>
-        <p class="lead mb-5"><br>Donnerstags <br>17:00 bis 19:00 Uhr Kinder und Jugendliche <br>19:00 bis 23:00 Uhr Aktive und interessierte Schachspieler <br>
-          Cafeteria des Stefan-George-Gymnasiums<br><a href="https://goo.gl/maps/LsAnccZepqujTn7j6" target="_blank"> Morschfeldweg 5, 55411 Bingen am Rhein </a>
-		  <br> Parkplätze über die Waldstraße zu ereichen
-        </h3>
+        <p class="lead mb-5"><br>
+		Donnerstags<br>
+		17:00 bis 19:00 Uhr Kinder und Jugendliche <br>
+		19:00 bis 23:00 Uhr Aktive und interessierte Schachspieler<br>
+        Cafeteria des Stefan-George-Gymnasiums<br>
+		<a href="https://goo.gl/maps/LsAnccZepqujTn7j6" target="_blank"> Morschfeldweg 5, 55411 Bingen am Rhein </a><br>
+		Parkplätze über die Waldstraße zu ereichen
+       
+	   
     <h3 class="mb-0">Mannschaftsspiele</h3>
+	
 		<p class="lead mb-5"><br>Kulturzentrum Bingen (Altenzentrum der AWO) <br>
-      <a href="https://goo.gl/maps/BCAEhiDX4dfUCPub7" target="_blank"> Stefan-George-Straße / Freidhof, 55411 Bingen am Rhein </a> <br>Parkplätze an der Nahe</p>
+		<a href="https://goo.gl/maps/BCAEhiDX4dfUCPub7" target="_blank"> Stefan-George-Straße / Freidhof, 55411 Bingen am Rhein </a> <br>
+		Parkplätze an der Nahe</p>
+		
+		<!-- Links als Icons, Fix notwendig-->
 		
 		<div class="social-icons">
           <a href="mailto:frank.laubach@schachklub-bingen.de">
@@ -97,6 +126,7 @@
           </a>
               
       </div>
+	  
 	  
     </section>
 
@@ -189,7 +219,7 @@
 		<p>
 		Im Schachklub Bingen werden Kinder und Jugendliche spielerisch an das Schachspiel herangeführt und bei Interesse auf Turniere und das Spielen in der Mannschaft vorbereitet.
 		Bereits erfahrendere Schachspielerinnen können ihr Spiel theoretisch sowie praktisch weiter verbessern. Außerdem finden in regelmäßigen Abständen vereinsinterne Turniere,
-		wie das "Monatsblitz" statt, an denen jeder, unabhängig des Alters und der Spielstärke mitspielen darf.
+		wie das "Monatsblitz" statt, an denen jeder, unabhängig des Alters und der Spielstärke, mitspielen darf.
 		</p>
         <div class="subheading mb-2">Jahresbeiträge
         </div>
@@ -203,6 +233,57 @@
 		 </table>
 		 </p>
     </section>
+	
+	<hr class="m-0">
+	
+	<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="galery">
+	
+	<div class="w-100">
+        <h2 class="mb-5">Galerie</h2>
+	
+	<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="img/Slideshow/1.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="img/Slideshow/2.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="img/Slideshow/3.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="img/Slideshow/4.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+	
+	</section>
 
     <hr class="m-0">
 
@@ -211,7 +292,8 @@
         <h2 class="mb-5">Links</h2>
         <div class="subheading mb-3"><a href="https://www.schachbund.de" target="_blank">Deutscher Schachbund</a></br>
 		<a href="https://www.sbrp.org/cms/index.php?id=9" target="_blank">Schachbund Rheinland-Pfalz</a></br>
-		<a href="https://www.rheinhessenschach.de" target="_blank">Schachbund Rheinhessen</a>
+		<a href="https://www.rheinhessenschach.de" target="_blank">Schachbund Rheinhessen</a></br>
+		<a href="https://www.schachbund.de/verein/82010.html" target="_blank">Mitgliederliste des Schachklubs</a>
 		</div>
       </div>
     </section>
@@ -240,6 +322,9 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
+  
+  <!-- Slideshow -->
+  <script src="js/slideshow.min.js"></script>
 
 </body>
 
