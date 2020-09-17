@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "694595266295",
+    "firebase_url": "https://schachklub-bingen.firebaseio.com",
+    "project_id": "schachklub-bingen",
+    "storage_bucket": "schachklub-bingen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694595266295:android:13c0a596b000fab32215f2",
+        "android_client_info": {
+          "package_name": "com.example.schachklubbingen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694595266295-921j5jq5p2suvhfuhn6ng2h4duu2iq97.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJ0lYjotFDNh91F3vp7sLINH2104DAG8c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694595266295-921j5jq5p2suvhfuhn6ng2h4duu2iq97.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

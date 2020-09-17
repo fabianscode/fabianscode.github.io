@@ -33,10 +33,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ec14064-3026-4858-8536-dad6229dba84" name="Default Changelist" comment="added new icons and stuff">
-      <change beforePath="$PROJECT_DIR$/css/resume.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/resume.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ich spiele besser Schach als Tobi.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/schachklub-bingen/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/schachklub-bingen/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/schachklub-bingen/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/schachklub-bingen/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/schachklub-bingen/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/schachklub-bingen/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/schachklub-bingen/app/src/main/java/com/example/schachklubbingen/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/schachklub-bingen/app/src/main/java/com/example/schachklubbingen/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/schachklub-bingen/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/schachklub-bingen/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/schachklub-bingen/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/schachklub-bingen/app/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599770848067</updated>
       <workItem from="1599770849234" duration="1926000" />
+      <workItem from="1600371373620" duration="200000" />
     </task>
     <task id="LOCAL-00001" summary="added new icons and stuff">
       <created>1599771555488</created>
@@ -103,6 +106,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added new icons and stuff" />
