@@ -1,14 +1,16 @@
 package com.example.schachklubbingen
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.android.material.appbar.MaterialToolbar
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.activity_main.*
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -24,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        viewManager = GridLayoutManager(this, 2)
+        viewManager = GridLayoutManager(this, 3)
         viewAdapter = CustomAdapter(allAppointments)
 
         recyclerView = findViewById<RecyclerView>(R.id.my_recycler_view).apply {
@@ -32,6 +34,17 @@ class MainActivity : AppCompatActivity() {
             adapter = viewAdapter
 
         }
+
+        val toolbar = findViewById<MaterialToolbar>(R.id.toolbar)
+        toolbar.title = getString(R.string.chessclub_bingen)
+        toolbar.inflateMenu(R.menu.toolbar_menu)
+
+        toolbar.setOnMenuItemClickListener(Toolbar.OnMenuItemClickListener { item ->
+            if (item.itemId == R.id.reload) {
+                readData()
+            }
+            return@OnMenuItemClickListener true
+        })
 
         readData()
 
@@ -45,6 +58,7 @@ class MainActivity : AppCompatActivity() {
             .get()
             .addOnSuccessListener { result ->
                 allAppointments.clear()
+                viewAdapter.notifyDataSetChanged()
                 for (document in result) {
                     allAppointments.add(document.id + " - " + document.data.toString())
                 }
@@ -57,8 +71,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun storeAppointments() {
-        val dateInput = ""
-        val topicInput = ""
+        val dateInput = "Donnerstag"
+        val topicInput = "irgendwas komisches, das schon was lustiges an sich hat"
 
         val appointment = hashMapOf(
             dateInput to topicInput
@@ -73,4 +87,6 @@ class MainActivity : AppCompatActivity() {
                 Log.w("TAG", "Error adding document", e)
             }
     }
+
+
 }

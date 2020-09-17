@@ -12,7 +12,6 @@ class CustomAdapter(private val dataset: List<String>) :
 
     class CustomViewHolder(val customViewHolderView: CustomViewHolderView) : RecyclerView.ViewHolder(customViewHolderView)
 
-
     override fun onCreateViewHolder(parent: ViewGroup,
                                     viewType: Int): CustomViewHolder {
 
@@ -34,6 +33,9 @@ class CustomViewHolderView(context: Context) : LinearLayout(context) {
     }
 
     public fun setContent(content: String) {
-        findViewById<TextView>(R.id.item_text).text = content
+        var date = content.split("{")[1].split("}")[0].split("=")[0]
+        var topic = content.split("{")[1].split("}")[0].split("=")[1]
+
+        findViewById<TextView>(R.id.item_text).text = topic
     }
 }
