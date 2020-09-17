@@ -56,13 +56,13 @@ p.lead {
 
 .social-icons a {
     display: inline-block;
-    height: 5.5rem;
-    width: 5.5rem;
+    height: 4.5rem;
+    width: 4.5rem;
     background-color: #495057;
-    color: #fff!important;
-    border-radius: 100%;
-    text-align: center;
-    font-size: 1.5rem;
+    color: #fff!important; 
+    border-radius: 10%;
+    text-align: center; 
+    font-size: 4.25rem; 
     line-height: 3.5rem;
     margin-right: 1rem
 }
