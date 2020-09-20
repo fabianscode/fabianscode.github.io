@@ -109,6 +109,16 @@ p.lead {
     text-transform: uppercase
 }
 
+@media (max-width:992px) {
+	a.mobile {
+		color:#0000EE;
+		text-decoration: underline;
+	}
+	
+	
+	
+}
+
 #sideNav .navbar-toggler:focus {
     outline-color: #ffffff
 }
