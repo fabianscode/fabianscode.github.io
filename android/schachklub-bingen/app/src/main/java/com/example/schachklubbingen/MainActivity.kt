@@ -2,8 +2,10 @@ package com.example.schachklubbingen
 
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
+import androidx.fragment.app.FragmentTransaction
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.appbar.MaterialToolbar
@@ -25,6 +27,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        App.mainActivity = this
 
         viewManager = GridLayoutManager(this, 3)
         viewAdapter = CustomAdapter(allAppointments)
@@ -59,6 +63,7 @@ class MainActivity : AppCompatActivity() {
             .addOnSuccessListener { result ->
                 allAppointments.clear()
                 viewAdapter.notifyDataSetChanged()
+
                 for (document in result) {
                     allAppointments.add(document.id + " - " + document.data.toString())
                 }
@@ -88,5 +93,8 @@ class MainActivity : AppCompatActivity() {
             }
     }
 
-
+    public fun showEventEditingDialog() {
+        var exampleDialog = ExampleDialog()
+        exampleDialog.show(supportFragmentManager, "Dialog")
+    }
 }
