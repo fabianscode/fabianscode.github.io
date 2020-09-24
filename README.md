@@ -1,2 +1,2 @@
 # chess-website
-Schachclub Bingen Webseite
+Schachklub Bingen Webseite

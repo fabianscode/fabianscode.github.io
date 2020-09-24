@@ -47,6 +47,26 @@ p.lead {
     font-weight: 400
 }
 
+.link-nav{
+	color: rgba(255,255,255,0.5);
+	 font-weight: 600;
+    letter-spacing: .05rem;
+    text-transform: uppercase
+	
+}
+
+.link-nav:hover{
+	color: rgba(255,255,255,0.75);
+}
+
+.link-nav-active{
+	color: rgba(255,255,255,1);
+	font-weight: 600;
+    letter-spacing: .05rem;
+    text-transform: uppercase
+}
+
+
 .subheading {
     text-transform: uppercase;
     font-weight: 500;
@@ -72,7 +92,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-    background-color: #bd5d38
+    background-color: #9b9b9b
 }
 
 .dev-icons {
@@ -80,7 +100,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-    color: #bd5d38
+    color: #9b9b9b
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -89,8 +109,14 @@ p.lead {
     text-transform: uppercase
 }
 
+@media (max-width:992px) {
+	a.mobile {
+		text-decoration: underline;
+	}	
+}
+
 #sideNav .navbar-toggler:focus {
-    outline-color: #d48a6e
+    outline-color: #ffffff
 }
 
 @media (min-width:992px) {
@@ -152,7 +178,7 @@ p.lead {
 section.resume-section {
     padding-top: 5rem!important;
     padding-bottom: 5rem!important;
-    max-width: 75rem
+    max-width: 77rem
 }
 
 section.resume-section .resume-item .resume-date {
@@ -194,5 +220,9 @@ a {
 a:active,
 a:focus,
 a:hover {
-    color: #824027
+    color: #9b9b9b;
+	text-decoration: none
 }
+
+
+
