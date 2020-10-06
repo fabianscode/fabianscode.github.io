@@ -1,0 +1,18 @@
+.header {
+	background: #000000;
+	width: 100%;
+}
+@media (min-width:992px) {
+	 .header{
+		display: none;  
+	 }
+	}
+
+@media (max-width:375px) {
+	.scale-fix{
+		white-space: nowrap;
+		
+	}
+	
+	
+}
