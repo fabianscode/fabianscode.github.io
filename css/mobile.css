@@ -18,6 +18,7 @@
 	line-height: inherit;
 	white-space: nowrap;
 	padding-left: .5rem;
+	text-align: right;
 }
 
 .header-pic{
@@ -25,4 +26,10 @@
 	max-width:10rem;
 	border: .45rem solid rgba(255, 255, 255, .2)
 	
+}
+
+@media (max-width:992px){
+	.nav-bar-mobile{
+		text-align:center;
+	}
 }
