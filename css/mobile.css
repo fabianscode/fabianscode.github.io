@@ -93,13 +93,11 @@
 	padding-left: 2.5vh;
 	width:65%;
 	margin-right: none;
+	position: absolute;
+	top:75%;
 
 }
 
-.text-space{
-	height:75vh;
-
-}
 
 .button-mobile{
 	border: none;
