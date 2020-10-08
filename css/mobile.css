@@ -114,7 +114,15 @@
 	left:75%;
 	color: white;
 
+}
 .button-position{
 
+
+}
+
+.link-mobile:hover,
+.link-mobile:focus,
+.link-mobile:active{
+	color: white;
 
 }
