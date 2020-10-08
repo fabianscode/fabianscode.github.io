@@ -65,6 +65,7 @@
 /* 	background-position-x: calc(-550px);  */
 	max-height:800px;
 
+
 }
 
 .pic-transparent{
@@ -90,10 +91,29 @@
 	font-size: 2rem;
 	font-weight: bold;
 	padding-left: 2.5vh;
+	width:65%;
+	margin-right: none;
 }
 
 .text-space{
-	height:80vh;
+	height:75vh;
+
+}
+
+.button-mobile{
+	border: none;
+	text-align: center;
+	font-size: 2rem;
+	padding:7px;
+	font-weight: bold;
+	background-color: rgba(0,0,0,0.25);
+	border-radius: 10%;
+	position: absolute;
+	top:80%;
+	left:75%;
+}
+
+.button-position{
 
 
 }
