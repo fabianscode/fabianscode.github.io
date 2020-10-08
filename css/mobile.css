@@ -43,6 +43,14 @@
 
 
 }
+@media (min-height:800px){
+	.section-mobile{
+		display: none!important;  
+	
+		}
+	
+	
+}
 
 .mobile-pic{
 	width:100%;
@@ -52,10 +60,10 @@
 
 .mobile-pic-background{
 	background-image: url(../img/profile.jpeg);
-	 min-height: calc(100vh - 100px);
+	height: calc(100vh - 0px);
 	background-repeat: no-repeat;
 /* 	background-position-x: calc(-550px);  */
-	
+	max-height:800px;
 
 }
 
@@ -63,6 +71,7 @@
 	background-color: rgba(0, 0, 0, 0.20);
 	min-height: calc(100vh - 0px);
 	width: 100%;
+	
 }
 
 .resume-section-pic{
@@ -72,7 +81,7 @@
 }
 
 .mobile-pic-bottom{
-	height: 1px;
+	height: 100px;
 }
 
 .text-mobile{
