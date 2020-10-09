@@ -60,6 +60,7 @@
 
 .mobile-pic-background{
 	background-image: url(../img/profile.jpeg);
+
 	height: calc(100vh - 0px);
 	background-repeat: no-repeat;
 /* 	background-position-x: calc(-550px);  */
@@ -122,5 +123,4 @@
 .link-mobile:focus,
 .link-mobile:active{
 	color: white;
-
 }
