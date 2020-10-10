@@ -85,7 +85,7 @@
 	}
 }
 
-@media (min-height:1700px){
+@media (min-height:1600px){
 	.mobile-pic-background{
 		background-image: url(../img/profile-huge.jpg);
 	}
