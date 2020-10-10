@@ -40,6 +40,7 @@
 }
 
 /*mobile start page*/
+
 @media (min-width:992px){
 	.section-mobile{
 		display: none!important;  
@@ -70,7 +71,7 @@
 	height: 100vh;
 	background-repeat: no-repeat;
 /* 	background-position-x: calc(-550px);  */
-	max-height:2000px;
+	max-height:1700px;
 }
 
 
@@ -85,11 +86,6 @@
 	}
 }
 
-@media (min-height:1600px){
-	.mobile-pic-background{
-		background-image: url(../img/profile-huge.jpg);
-	}
-}
 
 
 
@@ -109,7 +105,6 @@
 .mobile-pic-bottom{
 	height: 60px;
 	background-color: black;
-	padding-top: 5px;
 }
 
 .text-mobile{
