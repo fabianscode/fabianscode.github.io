@@ -70,7 +70,7 @@
 	height: calc(100vh - 0px);
 	background-repeat: no-repeat;
 /* 	background-position-x: calc(-550px);  */
-	max-height:1700px;
+	max-height:1705px;
 }
 
 
@@ -79,7 +79,7 @@
 		background-image: url(../img/profile-medium.jpg);
 	}
 }
-@media (min-height:1250px){
+@media (min-height:1249px){
 	.mobile-pic-background{
 		background-image: url(../img/profile-large.jpg);
 	}
