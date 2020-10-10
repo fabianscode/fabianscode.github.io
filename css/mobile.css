@@ -67,10 +67,10 @@
 .mobile-pic-background{
 	background-image: url(../img/profile.jpeg);
 
-	height: calc(100vh - 0px);
+	height: calc(100vh + 5px);
 	background-repeat: no-repeat;
 /* 	background-position-x: calc(-550px);  */
-	max-height:1705px;
+	max-height:1700px;
 }
 
 
@@ -89,7 +89,7 @@
 
 .pic-transparent{
 	background-color: rgba(0, 0, 0, 0.20);
-	min-height: calc(100vh - 0px);
+	min-height: calc(100vh + 5px);
 	width: 100%;
 	
 }
@@ -101,7 +101,7 @@
 }
 
 .mobile-pic-bottom{
-	height: 50px;
+	height: 60px;
 	background-color: black;
 }
 
