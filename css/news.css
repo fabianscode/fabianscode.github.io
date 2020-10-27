@@ -1,0 +1,60 @@
+.year{
+	padding-top: 4rem!important;
+	padding-bottom: 3rem!important;
+}
+
+/*Navigation Artikel Jahre */
+@media (min-width: 992px){
+	.year-nav{
+		position: sticky;
+		position: -webkit-sticky;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 1030;
+	}
+	.appearance-nav{
+		width:100%;
+		padding:1rem!important;
+		background-color: rgba(255,255,255,1);
+		padding-left:3rem!important;
+		font-size: 1rem;
+	}
+}
+
+.link-news-nav{
+	padding:1rem;
+	background-color: rgba(0,0,0,0.025);
+}
+.link-news-nav:hover{
+	background-color: rgba(0,0,0,0.5);
+	color:#FFFFFF;
+}
+
+.link-news-nav:focus,
+.link-news-nav:active{
+	color: #000000!important;
+
+}
+
+
+
+.text-news-nav{
+	word-spacing: -0.1rem;
+
+}
+
+div.line-nav{
+}
+
+
+/*Header*/
+@media (min-width: 992px){
+	.headline-news{
+		padding-left: 3rem!important;
+		padding-top: 3rem!important;
+		padding-bottom: 1rem!important;
+
+	}
+}
+
