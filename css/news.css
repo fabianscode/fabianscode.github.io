@@ -1,12 +1,12 @@
 
 .year{
-	padding-top: 2rem;
+	padding-top: 3rem;
 }
 
 
 @media (min-width: 992px){
 	.year{
-	padding-top: 4rem!important;
+	padding-top: 5rem!important;
 	padding-bottom: 3rem!important;
 	}
 }
@@ -44,16 +44,14 @@
 	.year-nav-mobile{
 		display: none!important;
 	}
-
 	.year-nav{
 		display:block!important;
-		position: sticky;
-		position: -webkit-sticky;
-		top: 0;
-		right: 0;
-		left: 0;
-		z-index: 1030;
+		background-color: rgba(255,255,255,1);
+  		position: fixed; /* Make it stick/fixed */
+  		top: -56px; /* Hide the navbar 50 px outside of the top view */
+  		transition: top 0.3s; /* Transition effect when sliding down (and up) */
 	}
+	
 	.appearance-nav{
 		width:100%;
 		padding:1rem!important;
@@ -64,6 +62,7 @@
 	.nav-headline{
 	display:block;
 	}	
+	
 }
 
 
