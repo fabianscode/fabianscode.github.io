@@ -1,6 +1,6 @@
 
 .year{
-	padding-top: 3rem;
+	padding-top: 4rem;
 }
 
 
@@ -23,6 +23,8 @@
 	bottom: 0;
 	right:0;
 	left:0;
+	overflow: auto;
+	white-space:nowrap;
 }
 
 .appearance-nav-mobile{
@@ -69,6 +71,7 @@
 
 .link-news-nav{
 	padding:1rem;
+	/*padding-left: 2rem;*/
 	background-color: rgba(0,0,0,0.025);
 	color: rgba(0,0,0,1);
 }
@@ -112,4 +115,20 @@ div.line-nav{
 	}
 }
 
+/*button mobile horizontal scroll*/
+
+.button-left{
+	position: fixed;
+	width:2rem;
+	height:3rem;
+	background-color: #FFFFFF;
+	bottom: 0;
+	right:0;
+	left:0;
+
+}
+
+.button-right{
+	position:fixed;
+}
 
