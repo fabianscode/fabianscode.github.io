@@ -52,6 +52,8 @@
   		position: fixed; /* Make it stick/fixed */
   		top: -56px; /* Hide the navbar 50 px outside of the top view */
   		transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  		overflow: auto;
+		white-space:nowrap;
 	}
 	
 	.appearance-nav{
@@ -117,7 +119,7 @@ div.line-nav{
 
 /*button mobile horizontal scroll*/
 
-.button-left{
+/*.button-left{
 	position: fixed;
 	width:2rem;
 	height:3rem;
@@ -130,5 +132,5 @@ div.line-nav{
 
 .button-right{
 	position:fixed;
-}
+} */
 
