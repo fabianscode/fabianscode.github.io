@@ -134,3 +134,22 @@ div.line-nav{
 	position:fixed;
 } */
 
+.min-height-overwrite{
+	min-height: 0vh!important;
+
+}
+
+.news-line{
+	width:25%;
+	margin-left:0;
+}
+
+.news-p{
+	margin: 0!important;
+
+}
+
+.news-div{
+	margin-bottom: 3rem;
+
+}
