@@ -59,7 +59,7 @@
 	.appearance-nav{
 		width:100%;
 		padding:1rem!important;
-		background-color: rgba(255,255,255,1);
+		background-color: rgba(0,0,0,1);
 		padding-left:3rem!important;
 		font-size: 1rem;
 	}
@@ -74,16 +74,16 @@
 .link-news-nav{
 	padding:1rem;
 	/*padding-left: 2rem;*/
-	background-color: rgba(0,0,0,0.025);
-	color: rgba(0,0,0,1);
+	background-color: rgba(0,0,0,1);
+	color: rgba(255,255,255,0.6);
 }
 .link-news-nav:hover{
-	background-color: rgba(0,0,0,0.5);
+	color: rgba(255,255,255,0.75);
 }
 
 .link-news-nav:focus,
 .link-news-nav:active{
-	color: #000000!important;
+	color: rgba(255,255,255,0.6)!important;
 
 }
 
