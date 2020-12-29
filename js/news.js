@@ -11,7 +11,7 @@ function scrollFunction() {
 
 function getHeight(){
 	  divElement = document.querySelector(".height-function"); 
-   
+
       elemHeight = divElement.clientHeight + 125; 
 
       return elemHeight;
