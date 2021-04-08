@@ -1,2 +1,2 @@
 
-ErrorDocumtent 404 \customerror/not_found.html
+ErrorDocument 404 /customerror/not_found.html
