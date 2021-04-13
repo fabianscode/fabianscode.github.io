@@ -52,7 +52,7 @@
   		position: fixed; /* Make it stick/fixed */
   		top: -56px; /* Hide the navbar 50 px outside of the top view */
   		transition: top 0.3s; /* Transition effect when sliding down (and up) */
-  		overflow: auto;
+  		overflow-x: auto;
 		white-space:nowrap;
 	}
 	
