@@ -1,0 +1,30 @@
+body{
+	padding-left: 12rem;
+	padding-top: 0;
+}
+
+.leftbar{
+	 background-color: #000000!important;
+     flex-flow: row nowrap;
+     justify-content: flex-start;
+     text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 50vh;
+    height: 100vh;
+}
+
+.textframe{
+	color: rgba(255,255,255,0.75);
+	font-weight: 600;
+    letter-spacing: .05rem;
+    text-transform: uppercase
+}
