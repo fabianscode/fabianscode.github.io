@@ -96,16 +96,6 @@ p.lead {
 
 }
 
-.nav-line-bottom{
-    display: block;
-}
-
-@media (min-width:992px) {
-    .nav-line-bottom{
-        display: none;
-    }
-
-}
 
 /*Nav Items Nav Line*/
 .nav-active{
