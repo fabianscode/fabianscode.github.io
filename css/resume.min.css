@@ -67,6 +67,51 @@ p.lead {
     text-transform: uppercase
 }
 
+/*Navbar line*/
+.nav-main{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.nav-line{
+    display: block;
+    height: 1px!important;
+    width:5%;
+    background-color: rgba(255,255,255,.5)!important;
+
+}
+@media (min-width:992px) {
+    .nav-line{
+        display: block;
+        width:12%;
+        text-align: left;
+        height: 2px!important;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        border-top-width: 0;
+    }
+
+
+
+
+}
+
+.nav-line-bottom{
+    display: block;
+}
+
+@media (min-width:992px) {
+    .nav-line-bottom{
+        display: none;
+    }
+
+}
+
+/*Nav Items Nav Line*/
+.nav-active{
+    color: rgba(255,255,255,1)!important;
+}
+
 
 .subheading {
     text-transform: uppercase;
