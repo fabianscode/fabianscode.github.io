@@ -3,8 +3,16 @@
 
 <head>
 
+
  
-  <link rel="icon" type="image/ico" href="favicon.ico" sizes="any">
+  <!-- Light mode favicon -->
+  <link rel="icon" href="favicon-light.ico" type="image/ico" media="(prefers-color-scheme: light)"/>
+   <!-- Dark mode favicon -->
+  <link rel="icon" href="favicon-dark.ico" type="image/ico" media="(prefers-color-scheme: dark)"/>
+	<!--firefox fallback-->
+  <link rel="icon" type="image/ico" href="favicon.ico" media="(prefers-color-scheme: no-preference)">
+
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Offizielle Webseite des Schachklubs Bingen 1946 e.V. - Schachklub in Rheinhessen">
@@ -48,7 +56,7 @@
 	<a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Schachklub Bingen 1946 e.V.</span>
       <span class="d-none d-lg-block">
-			<img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpeg" alt="">
+			<img class="img-fluid img-profile mx-auto mb-2" src="img/profile_new.png" alt="Logo des SK Bingen"><!--rounded-circle -->
       </span>
     </a>
 	<!-- Ende: Navigation Bild bzw Schrift -->
@@ -129,12 +137,14 @@
 <!--Anfang: Hauptseite -->
 
 <div class="container-fluid p-0"> 
-
+<!--
 <section class="resume-section-pic p-lg-5 d-flex align-items-center section-mobile" id="mobile">
 	<div class="w-100">
 		<div class="mobile-pic-background"><div class="pic-transparent">
+		-->
 			
 				  <!-- <div class="bg-font"></div> -->
+		<!--
 				    <div class="text-mobile">
 				     	Schachklub </br>Bingen 1946 e.V.
 				    </div>
@@ -144,27 +154,60 @@
 				    </div>
 		</div></div>	
 		
-		<div class="mobile-pic-bottom">
+		 
+		</div>
+	</div>
+</section> -->
+
+<section class="resume-section-pic d-flex align-items-center">
+	
+	<div class="w-100">
+		
+		<div class="desktop-pic-background">
+			
+			<div class="pic-transparent-desktop">
+				
+			</div>
+		<!--
+			<span class="d-none d-lg-block p-lg-5 headline-position">
+				<h1 class="mb-0">
+					<span class="text-primary">Willkommen im Schachklub Bingen</span>
+				</h1>
+			</span>
+		-->	
+			
+		</div>	
+	
+		
+
+		<div class="mobile-pic-bottom"></div>
+	
 		 
 		</div>
 	</div>
 </section> 
 
+
+
 <section class="p-3 p-lg-5 d-flex align-items-center" id="Allgemeines">
 	<div class="w-100">
 	<!--headline desktop -->	
+		
 		<span class="d-none d-lg-block">
 			<h1 class="mb-0">
 				<span class="text-primary">Willkommen im Schachklub Bingen</span>
 			</h1>
 		</span>
-	<!--headline mobile
+
+		
+		
+	<!--headline mobile-->
 		<span class="d-block d-lg-none">
 			<h2 class="mb-5"> 
-				
+				Schachklub Bingen
 			</h2>		
 		</span> 
-	-->
+	
 		<div class="subheading mb-5"> 
         </div>
         <div class="subheading mb-5">
@@ -196,27 +239,21 @@
 
 			</p>
 			<hr class="news-line">
-			<p class="lead mb-5 news-p">  
-				Die Ergebnisse der Vereinsmeisterschaft, des Monatsblitz und der Schach960-Turnierserie wurden veröffentlicht.<br>
-				Die Vereinsmeisterschaft gewann Paul Hinrichs.<br>
-				Das Monatsblitz konnte Adrian Springer für sich entscheiden.<br>
-				Die erste Schach960-Turnierserie entschied Jakob Lutterbach für sich.<br>
-				Weitere Infos sind hier zu finden: <a href="html/Saison/2025.html" class="mobile">Saison 2025</a>.
-			</p>
-			<hr class="news-line">
       		<p class="lead mb-5 news-p">  	
       			<a href="html/news.html" class="mobile"> Weitere Neuheiten und Nachrichten	</a>
       		</p>	
       	</div>
 		
+
+		<h3 class="mb-0">Kontakt</h3>
 		<!-- Links als Icons-->
 		<div class="social-icons">
 			<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;info&#0064;schachklub-bingen.de">
 				<img src="vendor/fontawesome-free/svgs/email.svg" width="55" height="55">
 			</a>
-			<!--<a href="https://discord.gg/femWpck"  target="_blank">
-				<img src="vendor/fontawesome-free/svgs/Discord-Logo-White.svg" width="55" height="55">
-			</a>-->
+			<a href="https://discord.gg/femWpck"  target="_blank">
+				<img src="vendor/fontawesome-free/svgs/Discord-Logo-Black.svg" width="55" height="55">
+			</a>
         </div>
 		<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">    
 			<div class="resume-content">
@@ -225,7 +262,7 @@
 			
 			<div class="resume-date text-md-right">
 			 	<div class="info-change">	
-					<span>letzte Änderung: 20.12.2025</span>
+					<span>letzte Änderung: 26.12.2025</span>
 					<div class="info-change-content">
 						Termin-Infos
 						
@@ -376,6 +413,27 @@
 		  </span>
 		</div>
 	  </div>
+
+<hr class="news-line">
+
+
+	<div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+		<div class="resume-content">
+		  <h3 class="mb-0">Digitaler Analyseabend</h3>
+		<div class="subheading mb-3"><a href="https://discord.gg/femWpck" target="_blank" class="mobile">Discord-Server</a></div> 
+		  <br>
+		  <p>
+			Wir treffen uns regelmäßig auf unserem Discord-Server, um gespielte Turnierpartien zu analysieren. 
+		  </p>
+		</div>
+		<div class="resume-date text-md-right">
+		  <span class="text-primary">
+			Sonntag Abend <br>
+			genauere Infos auf dem Discord-Server
+		  </span>
+		</div>
+	  </div>
+
 
 
   <br>
