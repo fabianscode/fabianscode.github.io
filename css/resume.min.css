@@ -99,7 +99,7 @@ p.lead {
 .desktop-pic-background{
 	background-image: url(../img/profile.jpeg);
 
-	height: 70vh;
+	height: 35vh;
 	background-repeat: no-repeat;
 /* 	background-position-x: calc(-550px);  */
 	max-height:1700px;
